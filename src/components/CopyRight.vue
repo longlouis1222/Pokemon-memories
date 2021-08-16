@@ -15,7 +15,7 @@ export default {};
 <style scoped>
 footer {
   position: fixed;
-  bottom: 20px;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 9;

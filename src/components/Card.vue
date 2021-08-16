@@ -3,12 +3,12 @@
     class="card"
     :class="{ disabled: isDisabled }"
     :style="{
-      height: `${(920 - 16 * 4) / Math.sqrt(cardsContext.length) - 16}px`,
+      height: `${(800 - 16 * 4) / Math.sqrt(cardsContext.length) - 16}px`,
       width: `${
-        (((920 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4
+        (((800 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4
       }px`,
       perpective: `${
-        ((((920 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4) * 2
+        ((((800 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4) * 2
       }px`,
     }"
   >
@@ -22,7 +22,11 @@
           class="card__content"
           :style="{
             backgroundSize: `${
-              (((920 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) /
+              (((800 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) /
+              4 /
+              3
+            }px ${
+              (((800 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) /
               4 /
               3
             }px`,
@@ -117,7 +121,7 @@ export default {
   backface-visibility: hidden;
   overflow: hidden;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
   box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.2);
 }
 
