@@ -1,4 +1,4 @@
-Link: https://611a2d96f4ea7ae1757c0ea5--reverent-nobel-d4527e.netlify.app/
+Link: https://poke-memories.netlify.app/
 # vuejs-04
 
 ## Project setup
